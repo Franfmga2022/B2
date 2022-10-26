@@ -20,9 +20,6 @@ int main()
  cout<<"La suma de los numeros fue: "<<s<<endl;
   return 0;
 
-
-[![IMG-20221025-212207.jpg](https://i.postimg.cc/TwwTyNSy/IMG-20221025-212207.jpg)](https://postimg.cc/5HZhTgf1)
-
 }
 
-
+[![IMG-20221025-212207.jpg](https://i.postimg.cc/TwwTyNSy/IMG-20221025-212207.jpg)](https://postimg.cc/5HZhTgf1)
