@@ -4,9 +4,9 @@ using namespace std;
 int main()
 {
 	float y,pm=0;
-	int i=0,l;
-	cout<<"Ingrese l: ";
-	cin>>l;
+	int i=0,c;
+	cout<<"Ingrese c: ";
+	cin>>c;
 	do{
 		cout<<"Ingrese y: ";
 		cin>>y;
@@ -14,7 +14,7 @@ int main()
 		if(y>pm){
 			pm=y;
 	  }
-	}while(i<l);
+	}while(i<c);
 	   cout<<"El promedio maximo del curso fue :"<<pm<<endl<<endl;
 	   return 0;
 
