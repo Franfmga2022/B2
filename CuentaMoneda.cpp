@@ -4,9 +4,9 @@ using namespace std;
 int main()
 {
 	float y,s=0,s1=0,s5=0;
-	int i=0,l,i1=0,i5=0;
-	cout<<"Ingrese l: ";
-	cin>>l;
+	int i=0,c,i1=0,i5=0;
+	cout<<"Ingrese c: ";
+	cin>>c;
 	do{
 		cout<<"Ingrese y: ";
 		cin>>y;
@@ -21,7 +21,7 @@ int main()
 		 s5=s5+y;
 		}
 
-	   }while(i<l);
+	   }while(i<c);
 	   cout<<"La cantidad de monedas fue :"<<i<<endl;
 	   cout<<"El valor fue :"<<s<<endl;
 
