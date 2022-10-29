@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-	float x,s=0;
+	float y,s=0;
 	int i=0,l;
 	cout<<"Ingrese cantidad de egresos (l)  : ";
 	cin>>l;
@@ -13,10 +13,10 @@ int main()
 
 	do{
 	
-	cout<<"Ingrese egreso(x)  : ";
-	cin>>x;
+	cout<<"Ingrese egreso(y)  : ";
+	cin>>y;
 	i=i+1;
-	s=s+x;
+	s=s+y;
 
         }while(i<l);
 
