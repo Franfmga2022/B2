@@ -3,16 +3,16 @@ using namespace std;
 
 int main()
 {
-  float R,s=0.0;
+  float y,s=0.0;
   int i=0,l;
   cout<<"Ingrese el valor de l: ";
   cin>>l;
   do{
 
-  cout<<"Ingrese el valor de R: ";
-  cin>>R;
+  cout<<"Ingrese el valor de y: ";
+  cin>>y;
   i=i+1;
-  s=s+R;
+  s=s+y;
 
 
  }while(i<l);
