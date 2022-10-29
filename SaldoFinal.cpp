@@ -4,9 +4,9 @@ using namespace std;
 int main()
 {
 	float y,s=0;
-	int i=0,l;
-	cout<<"Ingrese cantidad de egresos (l)  : ";
-	cin>>l;
+	int i=0,c;
+	cout<<"Ingrese cantidad de egresos (c)  : ";
+	cin>>c;
 
 	cout<<"Ingrese saldo inicial (s)  : ";
 	cin>>s;
@@ -18,7 +18,7 @@ int main()
 	i=i+1;
 	s=s+y;
 
-        }while(i<l);
+        }while(i<c);
 
 	cout<<"El saldo final es :"<<s<<endl;
 	return 0;
