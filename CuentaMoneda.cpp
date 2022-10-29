@@ -3,22 +3,22 @@ using namespace std;
 
 int main()
 {
-	float x,s=0,s1=0,s5=0;
+	float y,s=0,s1=0,s5=0;
 	int i=0,l,i1=0,i5=0;
 	cout<<"Ingrese l: ";
 	cin>>l;
 	do{
-		cout<<"Ingrese x: ";
-		cin>>x;
+		cout<<"Ingrese y: ";
+		cin>>y;
 		i=i+1;
-		s=s+x;
-		if(x==1){
+		s=s+y;
+		if(y==1){
 		   i1=i1+1;
-		   s1=s1+x;
+		   s1=s1+y;
 	        }else{
 
 		 i5=i5+1;
-		 s5=s5+x;
+		 s5=s5+y;
 		}
 
 	   }while(i<l);
