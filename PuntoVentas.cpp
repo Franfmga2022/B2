@@ -1,18 +1,19 @@
+// creador: Francisco Garcia
 #include<iostream>
 using namespace std;
 
 int main()
 {
-	float y,s=0,vb,piva=12,viva,pdesc=10,vdesc,vn;
-	int i=0,c;
-	cout<<"Ingrese c : ";
-	cin>>c;
+	float FMGA_y,s=0,vb,piva=12,viva,pdesc=10,vdesc,vn;
+	int i=0,FMGA_c;
+	cout<<"Ingrese FMGA_c : ";
+	cin>>FMGA_c;
 	do{
-		cout<<"Ingrese y : ";
-		cin>>y;
+		cout<<"Ingrese FMGA_y : ";
+		cin>>FMGA_y;
 		i=i+1;
-		s=s+y;
-	  }while(i<c);
+		s=s+FMGA_y;
+	  }while(i<FMGA_c);
 	   vb=s;
 	   viva=vb*piva/100;
 	   vdesc=vb*pdesc/100;
